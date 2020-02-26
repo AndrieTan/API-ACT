@@ -1,4 +1,3 @@
-<?php
 $name = $_POST['name'];
 $price = $_POST['price'];
 $description = $_POST['description'];
@@ -16,7 +15,7 @@ curl_setopt_array($curl, array(
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => "POST",
-    CURLOPT_POSTFIELDS =>"{\n    \"name\" : \"$name\",\n    \"price\" : \"$price\",\n    \"description\" : \"$desc\",\n    \"category_id\" : $category,\n    \"created\" : \"$date\"\n}",
+    CURLOPT_POSTFIELDS =>"{\n    \"name\" : \"$name\",\n    \"price\" : \"$price\",\n    \"description\" : \"$description\",\n    \"category_id\" : $category,\n    \"created\" : \"$date\"\n}",
     CURLOPT_HTTPHEADER => array(
       "Content-Type: text/plain"
     ),
@@ -27,5 +26,3 @@ curl_setopt_array($curl, array(
   curl_close($curl);
   echo $response;
   header("location:index.php?page=Product");
-
-?>

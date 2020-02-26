@@ -19,7 +19,7 @@
 		</tr>
 		<tr>
 			<td><h2>Description: </h2></td>
-			<td><input type="text" name="desc"></td>
+			<td><input type="text" name="description"></td>
 		</tr>
 		<tr>
 			<td><h2>Price: </h2></td>

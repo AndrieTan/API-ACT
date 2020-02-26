@@ -13,7 +13,7 @@
 
 <link rel="stylesheet" type="text/css" href="css/styles_products.css">
 
-<form method="POST" action="pro_update.php">
+<form method="POST" action="pro_update.php?id=<?php echo $id ?>">
 	<br>
 	<h1> ADD PRODUCT </h1>
 	<hr style ="width: 25%;">

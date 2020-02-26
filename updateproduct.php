@@ -25,7 +25,7 @@
 		</tr>
 		<tr>
 			<td><h2>Description: </h2></td>
-			<td><input type="text" name="desc" value="<?php echo $result['description'];?>"></td>
+			<td><input type="text" name="description" value="<?php echo $result['description'];?>"></td>
 		</tr>
 		<tr>
 			<td><h2>Price: </h2></td>

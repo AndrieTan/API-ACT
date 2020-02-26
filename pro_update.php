@@ -2,7 +2,7 @@
 $id = $_GET['id'];
 $name = $_POST['name'];
 $price = $_POST['price'];
-$description = $_POST['desc'];
+$description = $_POST['description'];
 $category = $_POST['category'];
 $date = '2019-06-01 00:35:07';
 
